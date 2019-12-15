@@ -18,7 +18,7 @@ import org.springframework.web.client.HttpClientErrorException;
 import java.util.List;
 
 
-@Route("ui")
+@Route
 public class MainView extends VerticalLayout {
 
     private RestService restService;
